@@ -279,7 +279,6 @@ int main(int argc, char** argv)
     /* Close the file of text */
     printf("Pointer aaa: %p\n", pointerTextFile);
     printf("281\n");
-    
     fclose(pointerTextFile);
     printf("285\n");
     printf("Pointer after fclose: %p\n", pointerTextFile);
